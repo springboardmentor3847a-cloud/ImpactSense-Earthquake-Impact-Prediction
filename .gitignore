@@ -1,0 +1,11 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Large data folders
+data/
+models/
+
+# Python cache & IDE files
+__pycache__/
+.vscode/
