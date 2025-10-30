@@ -1,6 +1,6 @@
 # ImpactSense-Earthquake-Impact-Prediction
 # Milestone 1
-Week 1: Data Exploration and Cleaning
+# Week 1: Data Exploration and Cleaning
 Loaded the dataset: Imported the earthquake data and previewed initial records to understand its structure.
 
 Data inspection: Checked data types, column names, and summary statistics for all variables.
@@ -15,7 +15,7 @@ Datetime handling: Identified the correct time column and parsed it as a datetim
 
 Export: Saved the cleaned dataset as earthquake_data_clean.csv for further use.
 
-Week 2: Feature Engineering and Preprocessing
+# Week 2: Feature Engineering and Preprocessing
 Datetime feature extraction: Extracted year, month, day, hour, and minute from the parsed datetime column.
 
 Categorical encoding: Converted categorical variables (such as Type, Source, Status, etc.) into numerical representations using Label Encoding.
