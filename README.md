@@ -14,3 +14,14 @@ Missing value treatment: Numeric columns with missing values were imputed using 
 Datetime handling: Identified the correct time column and parsed it as a datetime object, tested for consistency, and extracted date/time features as needed.
 
 Export: Saved the cleaned dataset as earthquake_data_clean.csv for further use.
+
+Week 2: Feature Engineering and Preprocessing
+Datetime feature extraction: Extracted year, month, day, hour, and minute from the parsed datetime column.
+
+Categorical encoding: Converted categorical variables (such as Type, Source, Status, etc.) into numerical representations using Label Encoding.
+
+Numerical feature scaling: Standardized all relevant numerical features to ensure consistent scaling for machine learning models.
+
+Feature/target definition: Defined feature set (X) and target variable (y, e.g., Magnitude).
+
+Train-test split: Split the dataset into training and test sets with an 80/20 ratio, readying the data for model development.
