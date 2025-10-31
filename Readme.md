@@ -153,16 +153,17 @@ Their mentorship played a crucial role in shaping the development of **ImpactSen
 
 ---
 
+---
+
 ## 👨‍💻 Developed By  
 
-**Sarthak Singh**  
-💼 *Project developed during internship at Infosys Springboard*  
-
-📍 *Developer of ImpactSense – Earthquake Impact Prediction*  
+**✨ Sarthak Singh**  
+💼 *Project completed during internship at Infosys Springboard*  
 
 🔗 **Connect with me:**  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sarthak%20Singh-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sarthak-singh-cse/)  
 
 ---
+
 
 
