@@ -133,14 +133,6 @@ IMPACTSENSE_PROJECT/
 
 ---
 
-## 🪶 Acknowledgement  ## 📚 References  
-
-- [📘 Kaggle Earthquake Dataset](https://www.kaggle.com)  
-- [🌐 USGS Earthquake Catalog](https://earthquake.usgs.gov/earthquakes/search/)  
-- [🗺️ DSMW (Digital Soil Map of the World)](https://data.apps.fao.org/map/catalog/srv/eng/catalog.search#/metadata/22b99b60-4b4a-11db-b8c6-000d939bc5d8)  
-
----
-
 ## 🪶 Acknowledgement  
 
 This project was developed as part of the **Infosys Springboard Internship Program**.  
