@@ -35,13 +35,11 @@ IMPACTSENSE_PROJECT/
 │   │       ├── DSMW.sbx
 │   │       ├── DSMW.shp
 │   │       ├── DSMW.shp.xml
+│   │       ├── Generalized_SU_Info.xls
+│   │       ├── SU_Info.xls
+│   │       ├── WORLD764.xls
+│   │       ├── SoilData.doc
 │   │       └── DSMW.shx
-│   │
-│   ├── Generalized_SU_Info.xls
-│   ├── SU_Info.xls
-│   ├── WORLD764.xls
-│   ├── readme.doc
-│   ├── SoilData.doc
 │   ├── baseline_results_week3.csv
 │   ├── earthquake_cleaned_day1.csv
 │   ├── earthquake_encoded_day3.csv
@@ -53,16 +51,16 @@ IMPACTSENSE_PROJECT/
 │   ├── label_encoder.pkl
 │   ├── random_forest_day1.pkl
 │   ├── random_forest_day1_balanced.pkl
-│   ├── random_forest_tuned.pkl
 │   ├── random_forest_best.pkl
-│   ├── xgboost_day2.pkl
-│   ├── xgboost_tuned.pkl
-│   ├── xgboost_tuned_weighted.pkl
-│   └── xgboost_best.pkl
-│
+│   └── xgboost_day2.pkl
+├── Preview.png 
 ├── ImpactSense.ipynb
+├── random_forest_tuned.pkl
+├── xgboost_tuned.pkl
+├── xgboost_tuned_weighted.pkl
 ├── model_comparison_summary.csv
 ├── model_evaluation_summary.csv
+├── xgboost_best.pkl
 └── week5_model_evaluation_summary.csv
 ```
 
