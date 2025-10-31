@@ -19,21 +19,24 @@ To build a predictive model that estimates the **impact zone**, **risk level**, 
 
 ---
 
-## 🏗️ Project Structure  
+## 🧱 Project Structure  
 
+```text
 IMPACTSENSE_PROJECT/
+│
 ├── Dataset/
 │   ├── dmsw/
 │   │   └── DSMW/
 │   │       ├── BasicFilesSC.xls
 │   │       ├── DSMW.dbf
 │   │       ├── DSMW.lyr
-│   │       ├── DSMM_noborder.lyr
+│   │       ├── DSMW_noborder.lyr
 │   │       ├── DSMW.sbn
 │   │       ├── DSMW.sbx
 │   │       ├── DSMW.shp
 │   │       ├── DSMW.shp.xml
 │   │       └── DSMW.shx
+│   │
 │   ├── Generalized_SU_Info.xls
 │   ├── SU_Info.xls
 │   ├── WORLD764.xls
@@ -51,16 +54,17 @@ IMPACTSENSE_PROJECT/
 │   ├── random_forest_day1.pkl
 │   ├── random_forest_day1_balanced.pkl
 │   ├── random_forest_tuned.pkl
-│   ├── random_forest_best.pkl       
+│   ├── random_forest_best.pkl
 │   ├── xgboost_day2.pkl
 │   ├── xgboost_tuned.pkl
 │   ├── xgboost_tuned_weighted.pkl
-│   └── xgboost_best.pkl             
+│   └── xgboost_best.pkl
+│
 ├── ImpactSense.ipynb
 ├── model_comparison_summary.csv
-├── model_evaluation_summary.csv     
-├── week5_model_evaluation_summary.csv
-└── (other docs / artifacts)
+├── model_evaluation_summary.csv
+└── week5_model_evaluation_summary.csv
+
 
 
 
