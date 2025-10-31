@@ -21,44 +21,47 @@ To build a predictive model that estimates the **impact zone**, **risk level**, 
 
 ## 🏗️ Project Structure  
 
-ImpactSense Project/
-│
+IMPACTSENSE_PROJECT/
 ├── Dataset/
-│ ├── dmsw/DSMW/
-│ │ ├── DSMW.dbf, DSMW.shp, DSMW.shx, DSMW.lyr ...
-│ │ ├── BasicFilesSC.xls
-│ │ ├── Generalized_SU_Info.xls
-│ │ ├── SU_Info.xls
-│ │ ├── WORLD764.xls
-│ │
-│ ├── baseline_results_week3.csv
-│ ├── earthquake_cleaned_day1.csv
-│ ├── earthquake_encoded_day3.csv
-│ ├── earthquake_features_day4.csv
-│ ├── earthquake_preprocessed_week2.csv
-│ ├── earthquake_scaled_day2.csv
-│ ├── Significant_Earthquakes.csv
-│ ├── unified_earthquake_data.csv
-│ │
-│ ├── label_encoder.pkl
-│ ├── random_forest_day1.pkl
-│ ├── random_forest_day1_balanced.pkl
-│ ├── random_forest_tuned.pkl
-│ ├── xgboost_day2.pkl
-│ ├── xgboost_tuned.pkl
-│ ├── xgboost_tuned_weighted.pkl
-│ ├── best_random_forest.pkl
-│ ├── best_xgboost.pkl
-│
-├── model_comparison_summary.csv
-├── model_evaluation_summary.csv
-├── week5_model_evaluation_summary.csv
-│
-├── readme.doc
-├── SoilData.doc
+│   ├── dmsw/
+│   │   └── DSMW/
+│   │       ├── BasicFilesSC.xls
+│   │       ├── DSMW.dbf
+│   │       ├── DSMW.lyr
+│   │       ├── DSMM_noborder.lyr
+│   │       ├── DSMW.sbn
+│   │       ├── DSMW.sbx
+│   │       ├── DSMW.shp
+│   │       ├── DSMW.shp.xml
+│   │       └── DSMW.shx
+│   ├── Generalized_SU_Info.xls
+│   ├── SU_Info.xls
+│   ├── WORLD764.xls
+│   ├── readme.doc
+│   ├── SoilData.doc
+│   ├── baseline_results_week3.csv
+│   ├── earthquake_cleaned_day1.csv
+│   ├── earthquake_encoded_day3.csv
+│   ├── earthquake_features_day4.csv
+│   ├── earthquake_preprocessed_week2.csv
+│   ├── earthquake_scaled_day2.csv
+│   ├── Significant_Earthquakes.csv
+│   ├── unified_earthquake_data.csv
+│   ├── label_encoder.pkl
+│   ├── random_forest_day1.pkl
+│   ├── random_forest_day1_balanced.pkl
+│   ├── random_forest_tuned.pkl
+│   ├── random_forest_best.pkl       
+│   ├── xgboost_day2.pkl
+│   ├── xgboost_tuned.pkl
+│   ├── xgboost_tuned_weighted.pkl
+│   └── xgboost_best.pkl             
 ├── ImpactSense.ipynb
-│
-└── 📄 ImpactSense - Earthquake Impact Prediction.pdf
+├── model_comparison_summary.csv
+├── model_evaluation_summary.csv     
+├── week5_model_evaluation_summary.csv
+└── (other docs / artifacts)
+
 
 
 ---
@@ -123,14 +126,6 @@ ImpactSense Project/
 
 ---
 
-## 🚀 Future Enhancements  
-
-- 🔗 **Integrate real-time earthquake API data** (e.g., [USGS API](https://earthquake.usgs.gov/fdsnws/event/1/))  
-- 📊 **Add an interactive dashboard** for live visualization and monitoring  
-- ☁️ **Deploy the model** using **FastAPI** or **Streamlit Cloud**  
-- 🚨 **Implement an alert system** to notify users of high-risk predictions in real-time  
-
----
 
 ## 📚 References  
 
