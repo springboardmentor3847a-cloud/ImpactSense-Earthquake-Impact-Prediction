@@ -64,11 +64,7 @@ IMPACTSENSE_PROJECT/
 ├── model_comparison_summary.csv
 ├── model_evaluation_summary.csv
 └── week5_model_evaluation_summary.csv
-
-
-
-
----
+```
 
 ## ⚙️ Modules Implemented  
 
@@ -154,4 +150,19 @@ This project was developed as part of the **Infosys Springboard Internship Progr
 I would like to express my sincere gratitude to my **Spring Mentor** for their constant guidance, support, and valuable feedback throughout the project.  
 
 Their mentorship played a crucial role in shaping the development of **ImpactSense**, helping me gain hands-on experience in **machine learning**, **data analysis**, and **real-world problem-solving** in the domain of **disaster management and geospatial analytics**.  
+
+---
+
+## 👨‍💻 Developed By  
+
+**Sarthak Singh**  
+💼 *Project developed during internship at Infosys Springboard*  
+
+📍 *Developer of ImpactSense – Earthquake Impact Prediction*  
+
+🔗 **Connect with me:**  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sarthak%20Singh-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sarthak-singh-cse/)  
+
+---
+
 
