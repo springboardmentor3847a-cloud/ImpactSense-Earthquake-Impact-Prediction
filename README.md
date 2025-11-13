@@ -1,4 +1,4 @@
-###ImpactSense – Earthquake Impact Prediction
+ImpactSense – Earthquake Impact Prediction
 
 ImpactSense: AI-Powered Earthquake Risk Analyzer
 
