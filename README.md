@@ -1,1 +1,175 @@
 # ImpactSense-Earthquake-Impact-Prediction
+🌍 ImpactSense – Earthquake Impact Prediction
+Author: Sankalp Patil
+Tools Used: Python, Scikit-learn, XGBoost, Pandas, NumPy, Matplotlib, Gradio / Streamlit (optional UI)
+
+📖 Project Overview
+ImpactSense is a machine learning–based system designed to predict the impact and severity of earthquakes using geophysical and environmental data such as magnitude, depth, latitude, longitude, and soil characteristics.
+
+The model helps in urban planning, disaster management, and emergency response by classifying earthquake risks or predicting potential damage levels.
+
+🎯 Objective
+To build a predictive model that estimates the impact zone, risk level, or damage severity of earthquakes based on seismic and soil data.
+
+🔧 Setup & How to Run ImpactSense
+This guide explains how to download, set up, and run the ImpactSense Earthquake Impact Prediction project.
+
+Repository Link:
+https://github.com/springboardmentor3847a-cloud/ImpactSense-Earthquake-Impact-Prediction/tree/Sankalp_Patil
+
+📁 1. Download the Project
+To run the project offline, download the entire repository:
+
+Option A — Download ZIP
+Go to the repository link above
+Click Code → Download ZIP
+Extract the ZIP file on your system
+Option B — Clone the Repository
+git clone https://github.com/springboardmentor3847a-cloud/ImpactSense-Earthquake-Impact-Prediction/tree/Sankalp_Patil
+
+Make sure the folder structure remains exactly same as given in the Readme File
+
+📌 2. Install Required Dependencies
+Before running the project, ensure that Python and Jupyter Notebook are installed on your system.
+
+Install Required Libraries
+Run the following command to install all required dependencies:
+
+pip install numpy pandas scikit-learn xgboost matplotlib seaborn jupyter
+Start Jupyter Notebook
+Run the Notebook to execute the project:
+
+Open ImpactSense.ipynb in Jupyter Notebook.
+
+Run all cells from top to bottom.
+
+You will be able to view:
+
+Model outputs
+
+Predictions
+
+Visualizations
+
+UI & results
+
+IMPORTANT: Update File Paths in the Code
+Since the project runs offline, you must manually update all dataset and model paths in the notebook according to where you saved the project.
+
+Example Path Update
+If path inside the notebook:
+
+data = pd.read_csv("Dataset/unified_earthquake_data.csv")
+Replace it with your full system path:
+
+data = pd.read_csv("C:/Users/YourName/Desktop/ImpactSense/Dataset/unified_earthquake_data.csv")
+Update Paths For:
+All CSV datasets
+
+All PKL model files
+
+Label encoder files
+
+Any file being loaded inside the notebook
+
+You're Ready to Go!
+Once the file paths are set correctly, you can run ImpactSense without issues 😊
+
+🧱 Project Structure
+IMPACTSENSE_PROJECT/
+│
+├── Dataset/
+│   ├── dmsw/
+│   │   └── DSMW/
+│   │       ├── BasicFilesSC.xls
+│   │       ├── DSMW.dbf
+│   │       ├── DSMW.lyr
+│   │       ├── DSMW_noborder.lyr
+│   │       ├── DSMW.sbn
+│   │       ├── DSMW.sbx
+│   │       ├── DSMW.shp
+│   │       ├── DSMW.shp.xml
+│   │       ├── Generalized_SU_Info.xls
+│   │       ├── SU_Info.xls
+│   │       ├── WORLD764.xls
+│   │       ├── SoilData.doc
+│   │       └── DSMW.shx
+│   ├── baseline_results_week3.csv
+│   ├── earthquake_cleaned_day1.csv
+│   ├── earthquake_encoded_day3.csv
+│   ├── earthquake_features_day4.csv
+│   ├── earthquake_preprocessed_week2.csv
+│   ├── earthquake_scaled_day2.csv
+│   ├── Significant_Earthquakes.csv
+│   ├── unified_earthquake_data.csv
+│   ├── label_encoder.pkl
+│   ├── random_forest_day1.pkl
+│   ├── random_forest_day1_balanced.pkl
+│   ├── random_forest_best.pkl
+│   └── xgboost_day2.pkl
+├── Preview.png 
+├── ImpactSense.ipynb
+├── random_forest_tuned.pkl
+├── xgboost_tuned.pkl
+├── xgboost_tuned_weighted.pkl
+├── model_comparison_summary.csv
+├── model_evaluation_summary.csv
+├── xgboost_best.pkl
+└── week5_model_evaluation_summary.csv
+⚙️ Modules Implemented
+🧹 1. Data Exploration & Cleaning
+Load raw datasets
+Handle missing values, duplicates, and anomalies
+Visualize earthquake frequency, magnitude, and depth distribution
+🧩 2. Feature Engineering
+Scaling and normalization
+Geospatial clustering and encoding
+Feature extraction from soil and seismic attributes
+🤖 3. Model Development
+Algorithms used: Logistic Regression, Decision Tree, Random Forest, XGBoost
+Hyperparameter tuning for optimized performance
+📊 4. Model Evaluation
+Classification metrics: Accuracy, Precision, Recall, F1-Score
+Regression metrics: MAE, MSE, R²
+Visualization: Confusion matrix, feature importance, SHAP plots
+💻 5. User Interface (Optional)
+Built with Gradio or Streamlit
+Input: Magnitude, depth, region, soil type
+Output: Predicted risk category or impact level
+📈 Model Performance Metrics
+Metric	Description
+Accuracy	Correct classification percentage
+Precision	Reliability of positive predictions
+Recall	Coverage of actual high-risk cases
+F1-Score	Balance between precision & recall
+MAE/MSE	Average prediction error (for regression)
+R² Score	Model explanatory power
+🧠 Key Outcomes
+✅ Built and tuned ML models for earthquake impact prediction
+✅ Achieved explainability via feature importance and SHAP
+✅ Developed reproducible code in Jupyter Notebook
+✅ Optional prototype UI for real-time prediction
+
+🧩 Datasets Used
+Significant_Earthquakes.csv – Core dataset (magnitude, depth, lat, long, region)
+SoilData.doc / DSMW Files – Soil and geological properties
+WORLD764.xls / SU_Info.xls – Supplementary location and seismic zone data
+Source: Kaggle and publicly available geospatial datasets
+
+📚 References
+📘 Kaggle Earthquake Dataset
+🌐 USGS Earthquake Catalog
+🗺️ DSMW (Digital Soil Map of the World)
+🪶 Acknowledgement
+This project was developed as part of the Infosys Springboard Internship Program.
+
+I would like to express my sincere gratitude to my Spring Mentor for their constant guidance, support, and valuable feedback throughout the project.
+
+Their mentorship played a crucial role in shaping the development of ImpactSense, helping me gain hands-on experience in machine learning, data analysis, and real-world problem-solving in the domain of disaster management and geospatial analytics.
+
+👨‍💻 Developed By
+✨ Sankalp Patil
+💼 Project completed during internship at Infosys Springboard
+
+🔗 Connect with me:
+LinkedIn https://www.linkedin.com/in/sankalp-patil-sp
