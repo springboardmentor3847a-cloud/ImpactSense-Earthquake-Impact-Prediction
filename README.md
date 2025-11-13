@@ -117,3 +117,16 @@ The UI's job is to be a user-friendly "face" for the powerful pipeline.
     streamlit run Milestone_3_UI.py
     ```
     Your application will now be running and accessible in your browser!
+   ---
+   ## 📊 Dataset Links
+
+This project relies on publicly available, high-quality data:
+
+* **USGS Earthquake Hazards Program:** Real-time data is fetched from the [USGS FDSN Event Web Service API](https://earthquake.usgs.gov/fdsnws/event/1/).
+* **Historical Earthquake Database:** The `database.csv` file is based on the [Significant Earthquakes, 1900-Present Dataset](https://www.kaggle.com/datasets/usamabuttar/significant-earthquakes) available on Kaggle, which is also sourced from the USGS.
+* **Digital Soil Map of the World (DSMW):** The geospatial `soil_type` data is sourced from the [FAO/UNESCO Digital Soil Map of the World](https://www.fao.org/soils-portal/data-hub/soil-maps-and-databases/faounesco-soil-map-of-the-world/en/).
+---
+## 🙏 Acknowledgements
+
+* This project would not be possible without the invaluable, open-access data provided by the **U.S. Geological Survey (USGS)** and the **Food and Agriculture Organization (FAO) of the United Nations**.
+* A special thanks to the maintainers of the **Scikit-learn**, **XGBoost**, **Streamlit**, and **Pandas** libraries, whose open-source tools form the backbone of this application.
