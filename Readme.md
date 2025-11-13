@@ -28,7 +28,7 @@ https://github.com/springboardmentor3847a-cloud/ImpactSense-Earthquake-Impact-Pr
 
 ---
 
-## 📁 1. Download the Project
+### 📁 1. Download the Project
 
 To run the project offline, download the entire repository:
 
@@ -43,7 +43,7 @@ git clone https://github.com/springboardmentor3847a-cloud/ImpactSense-Earthquake
 
 Make sure the folder structure remains exactly same as given in the Readme File 
 
-## 📌 2. Install Required Dependencies
+### 📌 2. Install Required Dependencies
 
 Before running the project, ensure that **Python** and **Jupyter Notebook** are installed on your system.
 
@@ -95,8 +95,6 @@ data = pd.read_csv("C:/Users/YourName/Desktop/ImpactSense/Dataset/unified_earthq
 - Label encoder files
 
 - Any file being loaded inside the notebook
-
-If all paths are correctly updated, the notebook will run smoothly without errors.
 
 ## You're Ready to Go!
 
