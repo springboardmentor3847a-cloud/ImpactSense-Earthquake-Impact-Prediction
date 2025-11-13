@@ -1,4 +1,5 @@
-ImpactSense – Earthquake Impact Prediction
+###ImpactSense – Earthquake Impact Prediction
+
 ImpactSense: AI-Powered Earthquake Risk Analyzer
 
 ImpactSense is an end-to-end data science and full-stack project that predicts and visualizes the potential impact of earthquakes.
