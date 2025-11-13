@@ -11,11 +11,11 @@ ImpactSense is designed to analyze earthquake characteristics such as magnitude,
 
 The system is composed of:
 
-Machine Learning Pipeline: Built using Python and scikit-learn.
+   Machine Learning Pipeline: Built using Python and scikit-learn.
 
-Explainability Tools: SHAP for feature contribution insights.
+   Explainability Tools: SHAP for feature contribution insights.
 
-Web Interface: React-based frontend with an Express backend API for real-time predictions.
+   Web Interface: React-based frontend with an Express backend API for real-time predictions.
 
 Milestone 1: Data Preparation and Preprocessing
 
