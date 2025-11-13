@@ -1,47 +1,50 @@
-# ImpactSense-Earthquake-Impact-Prediction
+ImpactSense – Earthquake Impact Prediction
+
 ImpactSense: AI-Powered Earthquake Risk Analyzer
 
-ImpactSense is an end-to-end data science and full-stack project that predicts and visualizes the potential impact of earthquakes. It integrates live data pipelines, machine learning models, explainable AI (XAI), and a web-based interface for real-time risk assessment.
+ImpactSense is an end-to-end data science and full-stack project that predicts and visualizes the potential impact of earthquakes.
+It integrates live data pipelines, machine learning models, explainable AI (XAI), and a web-based interface for real-time risk assessment.
 
-The project demonstrates a complete MLOps-style workflow, from data preprocessing and model training to explainability and deployment via a React + Express web app.
+The project demonstrates a complete MLOps-style workflow — from data preprocessing and model training to explainability and deployment using a React + Express web app.
 
 Project Overview
 
-ImpactSense is designed to analyze earthquake characteristics such as magnitude, depth, and population density to predict their likely impact. The project uses advanced feature engineering and explainability techniques to ensure transparent predictions.
+ImpactSense analyzes earthquake characteristics such as magnitude, depth, and population density to predict their likely impact.
+It uses advanced feature engineering and explainability techniques to ensure transparent predictions.
 
-The system is composed of:
+System Components:
 
-   Machine Learning Pipeline: Built using Python and scikit-learn.
+Machine Learning Pipeline built using Python and scikit-learn
 
-   Explainability Tools: SHAP for feature contribution insights.
+Explainability Tools using SHAP for feature contribution insights
 
-   Web Interface: React-based frontend with an Express backend API for real-time predictions.
+Web Interface developed with React frontend and Express backend API for real-time predictions
 
 Milestone 1: Data Preparation and Preprocessing
 
-This milestone focused on creating a reliable dataset for model training and validation.
+*This milestone focused on creating a reliable dataset for model training and validation.
 
 Key Steps:
 
-Fetched or simulated earthquake data including parameters like Magnitude, Depth, Latitude, Longitude, Population Density, and Soil Type.
+Fetched or simulated earthquake data including Magnitude, Depth, Latitude, Longitude, Population Density, and Soil Type
 
-Engineered an ImpactScore feature that captures the interaction between these parameters.
+Engineered an ImpactScore feature capturing interactions between parameters
 
-Handled data preprocessing tasks including normalization and handling missing values.
+Applied preprocessing including normalization and missing value handling
 
-Conducted exploratory data analysis (EDA) to understand feature distributions and correlations.
+Conducted exploratory data analysis (EDA) to understand distributions and correlations
 
 Milestone 2: Model Training and Evaluation
 
-This milestone covered the development of a predictive model to estimate earthquake impact based on multiple input features.
+This milestone developed a predictive model to estimate earthquake impact.
 
 Approach:
 
-Split the data into training and testing sets.
+Split data into training (80%) and testing (20%) sets
 
-Implemented a Random Forest Regressor trained on 80% of the data.
+Implemented a Random Forest Regressor
 
-Computed evaluation metrics including:
+Computed evaluation metrics:
 
 Mean Absolute Error (MAE): 3.401
 
@@ -49,92 +52,100 @@ Mean Squared Error (MSE): 18.569
 
 R² Score: 0.985
 
-Created histograms to analyze the distribution of predicted vs actual ImpactScores.
+Analyzed predicted vs actual ImpactScores using histograms
 
 Key Insights:
 
-The Random Forest model achieved high accuracy (R² ≈ 0.98).
+Achieved high model accuracy (R² ≈ 0.98)
 
-Feature engineering (Depth influence and Population Density weighting) significantly improved performance.
+Feature engineering (Depth influence and Population Density weighting) improved performance
 
-Thresholds for classifying risk levels (Low, Medium, High) were derived using percentile-based thresholds from training data.
+Derived percentile-based thresholds for risk classification (Low, Medium, High)
 
 Milestone 3: Explainability and Model Interpretation
 
-This milestone focused on enhancing the interpretability of the model.
+This milestone enhanced the interpretability of the model using explainable AI.
 
 Tools Used:
 
-SHAP (SHapley Additive exPlanations): To measure feature importance and visualize model reasoning.
+SHAP (SHapley Additive exPlanations) to measure feature importance
 
-Generated summary and force plots showing how each input (magnitude, depth, population density) affects the prediction.
+Generated summary and force plots showing influence of magnitude, depth, and population density
 
-Derived class-based performance metrics using a confusion matrix and classification report.
+Created classification metrics such as confusion matrix and report
 
 Results:
 
-Model maintained over 93% classification accuracy when converting regression outputs to categorical risk levels.
+Model maintained over 93% classification accuracy when mapping regression outputs to risk categories
 
-Precision and recall were above 0.90 across all classes (Low, Medium, High).
+Precision and recall above 0.90 for all classes (Low, Medium, High)
 
-SHAP analysis confirmed that Magnitude and Depth were the dominant predictors of impact severity.
+SHAP confirmed Magnitude and Depth as dominant predictors
 
 Milestone 4: UI Development and Full-Stack Integration
 
-This milestone implemented a complete frontend-backend architecture to make predictions accessible via a user-friendly interface.
+Implemented a complete frontend-backend system for real-time predictions.
 
-Backend (Express.js):
+Backend (Express.js)
 
 Endpoint: POST /api/predict
 
 Inputs: Magnitude, Depth, Soil Type, Population Density, Latitude, Longitude
 
-Logic: Calculates an impact score (0–100) using a scaled function of all parameters.
+Logic: Calculates an impact score (0–100) using a scaled formula
 
-Returns: A JSON response { "score": value, "risk": "Low | Medium | High" }
+Returns: { "score": value, "risk": "Low" | "Medium" | "High" }
 
-Frontend (React):
+Frontend (React)
 
 Component: ImpactForm.js
 
 Features:
 
-User input fields for all model parameters
+Input fields for all parameters
 
-Validation for realistic ranges (e.g., magnitude 0–10, depth ≥ 0)
+Validations for realistic ranges (magnitude 0–10, depth ≥ 0)
 
-Preset buttons for quick “Urban” and “Rural” test scenarios
+Preset buttons for quick “Urban” and “Rural” test cases
 
-Displays predicted risk level and visual feedback on submission
-
-The web interface communicates with the backend in real-time and displays model predictions dynamically.
+Displays predicted risk level dynamically
 
 Risk Level Computation
 
-The backend uses a scoring formula to assess risk:
-
+The backend computes risk using the formula:
 Score = Magnitude Factor × Depth Factor × Soil Factor × Population Factor
 
 Risk Classification:
 
-0–34: Low risk (minimal surface damage)
+0–34 → Low (minimal surface damage)
 
-35–69: Medium risk (moderate infrastructure effects)
+35–69 → Medium (moderate infrastructure effects)
 
-70–100: High risk (severe urban damage potential)
+70–100 → High (severe urban damage potential)
 
 Model Explainability and Insights
 
-The project integrates SHAP explainability to ensure the predictions are transparent and justifiable.
-
 Top Influencing Factors:
 
-Magnitude: Directly increases the impact score.
+Magnitude: Directly increases impact score
 
-Depth: Shallow quakes amplify risk.
+Depth: Shallow earthquakes amplify risk
 
-Population Density: Indicates human exposure.
+Population Density: Reflects human and infrastructure exposure
 
-Soil Type: Modulates ground shaking intensity.
+Soil Type: Affects ground shaking intensity
 
-Visualization tools (bar charts, histograms, SHAP plots) make it easy to understand model decisions.
+Visualizations such as bar charts, histograms, and SHAP plots were used to interpret and justify predictions.
+
+Conclusion
+
+ImpactSense demonstrates the full lifecycle of a modern AI project — from data creation and model training to explainability and deployment.
+It highlights how data-driven modeling and XAI contribute to transparent and actionable earthquake risk assessments.
+
+Future improvements may include:
+
+Integration with live seismic APIs
+
+Enhanced geospatial visualization
+
+Automated retraining pipelines for continuous real-time analysis
