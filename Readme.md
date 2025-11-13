@@ -19,6 +19,87 @@ To build a predictive model that estimates the **impact zone**, **risk level**, 
 
 ---
 
+## 🔧 Setup & How to Run ImpactSense
+
+This guide explains how to download, set up, and run the **ImpactSense Earthquake Impact Prediction** project.
+
+Repository Link:  
+https://github.com/springboardmentor3847a-cloud/ImpactSense-Earthquake-Impact-Prediction/tree/sarthak-branch/
+
+---
+
+## 📁 1. Download the Project
+
+To run the project offline, download the entire repository:
+
+### Option A — Download ZIP
+1. Go to the repository link above  
+2. Click **Code → Download ZIP**  
+3. Extract the ZIP file on your system
+
+### Option B — Clone the Repository
+
+git clone https://github.com/springboardmentor3847a-cloud/ImpactSense-Earthquake-Impact-Prediction.git
+
+Make sure the folder structure remains exactly same as given in the Readme File 
+
+## 📌 2. Install Required Dependencies
+
+Before running the project, ensure that **Python** and **Jupyter Notebook** are installed on your system.
+
+### Install Required Libraries
+
+Run the following command to install all required dependencies:
+
+```bash
+pip install numpy pandas scikit-learn xgboost matplotlib seaborn jupyter
+``` 
+
+### Start Jupyter Notebook
+
+Run the Notebook to execute the project:
+
+1. Open ImpactSense.ipynb in Jupyter Notebook.
+
+2. Run all cells from top to bottom.
+
+3. You will be able to view:
+
+- Model outputs
+
+- Predictions
+
+- Visualizations
+
+- UI & results
+
+### IMPORTANT: Update File Paths in the Code
+Since the project runs offline, you must manually update all dataset and model paths in the notebook according to where you saved the project.
+
+Example Path Update
+
+If path inside the notebook:
+data = pd.read_csv("Dataset/unified_earthquake_data.csv")
+
+Replace it with your full system path:
+data = pd.read_csv("C:/Users/YourName/Desktop/ImpactSense/Dataset/unified_earthquake_data.csv")
+
+# Update Paths For:
+- All CSV datasets
+
+- All PKL model files
+
+- Label encoder files
+
+- Any file being loaded inside the notebook
+
+If all paths are correctly updated, the notebook will run smoothly without errors.
+
+### You're Ready to Go!
+
+Once the file paths are set correctly, you can run ImpactSense without issues 😊
+
+
 ## 🧱 Project Structure  
 
 ```text
