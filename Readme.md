@@ -76,15 +76,18 @@ Run the Notebook to execute the project:
 ### IMPORTANT: Update File Paths in the Code
 Since the project runs offline, you must manually update all dataset and model paths in the notebook according to where you saved the project.
 
-Example Path Update
+### Example Path Update
 
 If path inside the notebook:
+```
 data = pd.read_csv("Dataset/unified_earthquake_data.csv")
-
+```
 Replace it with your full system path:
+```
 data = pd.read_csv("C:/Users/YourName/Desktop/ImpactSense/Dataset/unified_earthquake_data.csv")
+```
 
-# Update Paths For:
+### Update Paths For:
 - All CSV datasets
 
 - All PKL model files
@@ -95,9 +98,10 @@ data = pd.read_csv("C:/Users/YourName/Desktop/ImpactSense/Dataset/unified_earthq
 
 If all paths are correctly updated, the notebook will run smoothly without errors.
 
-### You're Ready to Go!
+## You're Ready to Go!
 
 Once the file paths are set correctly, you can run ImpactSense without issues 😊
+
 
 
 ## 🧱 Project Structure  
