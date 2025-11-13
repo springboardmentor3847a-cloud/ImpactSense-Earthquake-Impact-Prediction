@@ -11,7 +11,6 @@ It goes beyond simple prediction to provide a fully-interactive web application 
 * **Impact Classification:** Uses a fine-tuned **XGBoost** model to classify earthquake severity.
 * **Geospatial Data Enrichment:** Enriches earthquake data with local **soil type** information for more accurate predictions.
 * **Dynamic Response UI:** The Streamlit front-end is more than just a form; it provides a full response kit:
-    * **Color-Coded Results:** Instantly see the severity with professional green, yellow, orange, and red headers.
     * **Actionable Checklists:** Dynamically generates safety information for what to do *before*, *during*, and *after* the event.
     * **Geo-Located Helplines:** Automatically performs reverse-geocoding to provide local emergency numbers (e.g., 911 in the US, 112 in India) for the event's location.
 * **Professional UI/UX:** Features a custom-themed UI with a dark sidebar, modern "card" elements, and a clean, responsive layout.
