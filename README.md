@@ -1,6 +1,7 @@
 # ImpactSense – Earthquake Impact Prediction
 
 **Author:** Sakthi Balaji A
+
 **Tools:** Python, Scikit-learn, XGBoost, Geopandas, Pandas, NumPy, Gradio
 
 ## Project Overview
@@ -15,7 +16,7 @@ To build and evaluate models that classify an earthquake's Magnitude Class or Da
 
 Get Files: Ensure you have ImpactSense.ipynb, the Significant_Earthquakes.xlsx dataset, and the Soil_data/ directory (with all DSMW shapefiles).
 
-## Install Dependencies:
+### Install Dependencies:
 
 pip install numpy pandas matplotlib seaborn scikit-learn geopandas xgboost gradio jupyter joblib
 
@@ -37,4 +38,5 @@ Model Development: Trains and evaluates LogisticRegression, RandomForestClassifi
 User Interface: Loads the saved XGBClassifier into a Gradio web app for live predictions.
 
 Developed By
+
 Sakthibalaji A
