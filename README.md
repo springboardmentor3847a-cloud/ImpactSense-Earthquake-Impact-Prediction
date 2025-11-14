@@ -1,1 +1,0 @@
-# ImpactSense-Earthquake-Impact-Prediction
