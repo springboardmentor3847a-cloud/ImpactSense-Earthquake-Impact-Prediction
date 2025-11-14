@@ -71,4 +71,5 @@ This project was completed as part of the **Infosys Springboard Virtual Internsh
 
 ## Contact 
 - **Intern Name**: Kavya Vengala  
-- **Email**: *[your email]*  
+- **Email**: *[kavyavengala03@gmail.com]*  
+
