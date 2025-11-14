@@ -66,8 +66,7 @@ This project follows a structured milestone-based workflow, implemented in the n
 ## **Milestone 4: Final UI & Deployment**
 
 - Built a complete **Gradio UI application**  
-- Integrated trained model + label encoder  
-- Added an improved SHAP visualization section  
+- Integrated trained model + label encoder   
 - Finalized project files for GitHub submission  
 
 ---
