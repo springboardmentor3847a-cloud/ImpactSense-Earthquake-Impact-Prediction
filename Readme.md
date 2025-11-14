@@ -136,8 +136,8 @@ IMPACTSENSE_PROJECT/
 │   ├── random_forest_day1_balanced.pkl
 │   ├── random_forest_best.pkl
 │   └── xgboost_day2.pkl
-├── Preview.png 
 ├── ImpactSense.ipynb
+├── MileStone 4 (UI & Results).png 
 ├── random_forest_tuned.pkl
 ├── xgboost_tuned.pkl
 ├── xgboost_tuned_weighted.pkl
