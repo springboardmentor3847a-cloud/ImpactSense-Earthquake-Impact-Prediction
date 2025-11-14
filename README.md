@@ -1,0 +1,1 @@
+A machine learning model that predicts the potential impact level of an earthquake based on factors like magnitude, depth, and location. The system helps in assessing risk levels to support disaster preparedness and quick response planning
