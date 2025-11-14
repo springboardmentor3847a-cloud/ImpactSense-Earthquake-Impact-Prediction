@@ -19,12 +19,10 @@ earthquake-impact-app/ ├── home.py ├── pages/ │   ├── 1_Pred
 
 Due to GitHub's 100MB file limit, large datasets are hosted externally:
 
-- [earthquake_features_day4.csv](https://drive.google.com/your-link)
-- [earthquake_preprocessed_week2.csv](https://drive.google.com/your-link)
-- [optimized_rf_model.pkl](https://drive.google.com/your-link)
-
+https://drive.google.com/drive/folders/1hMZxFW-lLTM8m6Gq-jvBcp8maoTWH2n6?usp=sharing
 ## 🛠️ Setup
 
 ```bash
 pip install -r requirements.txt
+
 streamlit run home.py
