@@ -82,7 +82,7 @@ reg_model = joblib.load(regression_path)
 st.sidebar.header("👩 Developer Info")
 st.sidebar.write("""
 **Name:** Akshaya  
-**GitHub:** [github.com/Akshaya](https://github.com/Akshaya)
+**GitHub:** [github.com/akshayavardhini](https://github.com/akshayavardhini)
 This app predicts **Earthquake Risk Levels**  
 based on:
 - 📍 Latitude  
@@ -182,4 +182,5 @@ with st.expander("💡 Example Input"):
     - Longitude: `80.27`
     - Depth: `30.00`
     - Year: `2024`
+
     """)
