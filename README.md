@@ -2,7 +2,7 @@
 
 This project builds a complete machine learning pipeline to predict earthquake magnitude using global earthquake data. The work is organized week-wise according to milestones, and all details from dataset analysis, preprocessing, modeling, evaluation, visualization, and explainability are included inside the weekly progress.
 
-# 🗓 WEEK-WISE & MILESTONE-WISE PROJECT DETAILS
+# 🗓 WEEK-WISE PROJECT DETAILS
 # 📌 Milestone 1 — Week 1 & Week 2
 # ✅ Week 1 — Project Setup & Dataset Understanding
 
